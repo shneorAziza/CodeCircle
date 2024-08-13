@@ -2,7 +2,7 @@ const RegisterPage = () => {
   return (
      <div className="wrapper">
     <form action="">
-      <h1>Sign in</h1>
+      <h1>Sign up</h1>
       <div className="input-box">
         <input type="text" placeholder="First Name" required />
       </div>
@@ -19,10 +19,10 @@ const RegisterPage = () => {
         <input type="password" placeholder="Password" required />
       </div>
     
-    <button type="submit">Sign in</button>
+    <button type="submit">Sign up</button>
     
     <div className="login-link">
-      <p>Not your first time hear? <a href="#">Login</a></p>
+      <p>Already have an account? <a href="#">Login</a></p>
     </div>
     </form>
   </div>

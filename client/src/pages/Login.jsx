@@ -16,15 +16,15 @@ const Login = () => {
           <FaLock className="icon"/>
         </div>
         
-        <div className="remember-forget">
+        <div className="remember-forgot">
           <label><input type="checkbox" />Remember me</label>
-          <a href="#">Forget password?</a>
+          <a href="#">Forgot password?</a>
         </div>
       
       <button type="submit">Login</button>
       
       <div className="register-link">
-        <p>Your first time hear? <a href="#">Register</a></p>
+        <p>Your first time here? <a href="#">Register</a></p>
       </div>
       </form>
     </div>

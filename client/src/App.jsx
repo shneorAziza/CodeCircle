@@ -5,7 +5,6 @@ import RegisterPage from "./pages/RegisterPage";
 function App() {
   return (
     <>
-      <Login />
       <RegisterPage />
     </>
   );
