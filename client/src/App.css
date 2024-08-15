@@ -43,9 +43,10 @@
 
 .wrapper{ 
   width: 420px;
-  background: rgb(229, 220, 220);
+  background: rgb(156, 238, 248);
   border-radius: 10px;
   padding: 30px 40px;
+  border: 1.5px solid rgba(19, 16, 16, 0.071);
 }
 
 .wrapper .input-box{
@@ -61,7 +62,7 @@
   background: white;
   border: none;
   outline: none;
-  border: 2px solid rgba(255, 255, 255, .2);
+  border: 1.5px solid rgba(19, 16, 16, 0.154);
   border-radius: 15px;
   font-size: 16px;
   padding: 20px, 45px, 20px, 20px;
@@ -94,6 +95,7 @@
 .wrapper button{
   width: 80%;
   margin: 15px;
-  background-color: rgb(162, 171, 230);
+  background-color: rgba(45, 47, 47, 0.377);
   font-size: large;
+  border: 1.5px solid rgba(19, 16, 16, 0.154);
 }
